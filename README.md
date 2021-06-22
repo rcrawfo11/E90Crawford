@@ -22,6 +22,8 @@ Our original pre-processing pipeline (found at Old/ProcessingForClassifier) was 
 
 **ClassifierPaper.m:** Runs LDA and creates confusion matricies. Cross-Validates and randomly samples to generate balanced data set. 
 
+**BasicDataVisualization.m:** Plots some basic data visualization, more specifics in file.  
+
 
 ## Citations 
 
