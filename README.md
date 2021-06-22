@@ -3,11 +3,20 @@
 ### E90 2021 
 
 ## Summary: 
-This repository contains the files used to complete Ricardo Gonzalez and Rekha Crawford's E90 final capstone project 2021. This capstone used data from the BNCI 2020 Horizon's data set in order to create and offline P300 speller implementation. Specifically data from Riccio et al. 2013 was used. This data consisted of EEG signals from 8 participants during their time using a P300 speller for the purpose of spelling pre-selected words. Our final data proccessing pipeline followed the steps used in this study. 
+This repository contains the files used to complete Ricardo Gonzalez and Rekha Crawford's E90 final capstone project 2021. This capstone used data from the BNCI 2020 Horizon's data set in order to create and offline P300 speller implementation. Specifically data from Riccio et al. 2013 was used. This data consisted of EEG signals from 8 participants during their time using a P300 speller for the purpose of spelling pre-selected words. Our final data proccessing pipeline followed the steps used in this study. Final classification accuracy on test data for our classifier was comparable to the original study (average accuracy of 89.86% for all participants). 
+
+Our original pre-processing pipeline (found at Old/ProcessingForClassifier) was based off a P300 classifier tutorial by Goncharenko, cited below. No files currently in use follow this pipeline. 
 
 
-## Relavant Files 
+## Folders 
 **Data Folder:** Holds participant and intermediate processed data
+
+**Old:** Has files currently not in use (past processing pipelines, visualizations, etc) 
+
+**Figures:** Has saved data visualizations for participants at different times
+
+
+## Relavant Files
 
 **PreprocessingEpochPaper.m:** Splices Data into epochs and does feature extraction, saves relavant data into "paper.mat" in the Data folder. Needs to be run before Classifier.m
 
