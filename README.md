@@ -1,5 +1,5 @@
-# E90RicardoRekha
-### Rekha Crawford and Ricardo Gonzalez 
+# E90Crawford
+### Rekha Crawford 
 ### E90 2021 
 
 ## Summary: 
@@ -29,3 +29,5 @@ Goncharenko, V. (2020, January 22). Simple P300 classifier on open data. Medium.
 
 Riccio, A., Simione, L., Schettini, F., Pizzimenti, A., Inghilleri, M., Bernardinelli, M.O., Mattia, D., Cincotti, F. (2013). Attention and P300-based BCI performance in people with amyotrophic lateral sclerosis. Frontiers in Human Neuroscience, 7, 732. doi:10.3389/fnhum.2013.00732
 
+## Acknoledgements 
+This project was done in collaboration with Ricardo Gonzalez, another Swarthmore Engineering Major. However the files in this Github here were all created by Rekha Crawford. 
